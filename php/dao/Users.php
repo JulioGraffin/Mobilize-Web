@@ -4,7 +4,9 @@ class usersDAO {
     
     public $id;
     public $name;
+    public $password;
     public $email;
+    public $timestamp;
 
     public function usersDAO($info = false) {
         if ($info) {
