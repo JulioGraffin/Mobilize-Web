@@ -1,10 +1,10 @@
 <?php 
-class slider_typeDAO{
-     public $id;
-    public $name;
-    public $size;
+class content_typeDAO{
     
-    public function siteDAO($info = false){
+    public $id;
+    public $name;
+    
+    public function content_typeDAO($info = false){
         if($info){
             $this->init($info);
         }

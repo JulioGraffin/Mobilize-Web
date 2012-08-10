@@ -3,7 +3,15 @@
 class siteDAO{
     
     public $id;
-    public $userid;
+    public $title;
+    public $font;
+    public $color_bg;
+    public $color_text;
+    public $color_content_title;
+    public $color_promotion_title;
+    public $color_slider_title;
+    public $color_title;
+    public $id_user;
     
     public function siteDAO($info = false){
         if($info){
