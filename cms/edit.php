@@ -21,18 +21,7 @@ if ($type == "content") {
     </head>
     <body>
         <!-- Barra do topo -->
-        <div>
-            <ul>
-                <li>Conteúdo</li>
-                <li>Promoções</li>
-                <li>Cusmotmização</li>
-            </ul>
-        </div>
-        <!-- Informações do Login -->
-        <div>
-            <h3>Nome do moreno</h3>
-            <a href="#">Logout</a>
-        </div>
+        <?php include "header.php"?>
 
 <?php if ($type == "content"): ?> 
             <form>

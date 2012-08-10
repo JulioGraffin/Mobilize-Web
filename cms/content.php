@@ -4,19 +4,8 @@
 
     </head>
     <body>
-        <!-- Barra do topo -->
-        <div>
-            <ul>
-                <li>Conteúdo</li>
-                <li>Promoções</li>
-                <li>Cusmotmização</li>
-            </ul>
-        </div>
-        <!-- Informações do Login -->
-        <div>
-            <h3>Nome do moreno</h3>
-            <a href="#">Logout</a>
-        </div>
+       <!-- Barra do topo -->
+        <?php include "header.php"?>
 
         <!-- Cabeçalho da Listagem -->
         <div>
