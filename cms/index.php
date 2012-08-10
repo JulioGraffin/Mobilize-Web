@@ -1,22 +1,9 @@
-
 <?php
-if (!empty($_SESSION['user'])) {
+session_start();
+
+if(isset($_SESSION["user"])){
     header("Location: home.php");
+} else {
+    header("Location: login.php");
 }
 ?>
-
-<html>
-    <title>CMS Mobile Web | Login no Sistema</title>
-    <head>
-        
-    </head>
-    <body>
-        <form>
-            <label>Login:</label>
-            <input type="text">
-            <label>Password:</label>
-            <input type="password">
-            <a href="home.php">Login</a>
-        </form>
-    </body>
-</html>
