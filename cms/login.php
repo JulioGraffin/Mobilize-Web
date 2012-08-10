@@ -2,6 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 		<title>CMS Mobileze Web | Login no Sistema</title>
 		<meta name="author" content="CMS Mobile Web" />
 		<meta name="description" content="CMS Mobile Web - Sistema de Gerenciamento de Conteúdo" />
