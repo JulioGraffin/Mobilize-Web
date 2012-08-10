@@ -4,7 +4,7 @@ class slider_typeDAO{
     public $name;
     public $size;
     
-    public function siteDAO($info = false){
+    public function slider_typeDAO($info = false){
         if($info){
             $this->init($info);
         }

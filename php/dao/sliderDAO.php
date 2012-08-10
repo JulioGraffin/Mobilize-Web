@@ -8,7 +8,7 @@ class sliderDAO{
     public $content;
     public $font;
     
-    public function siteDAO($info = false){
+    public function sliderDAO($info = false){
         if($info){
             $this->init($info);
         }

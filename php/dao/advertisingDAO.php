@@ -6,7 +6,7 @@ class advertisingDAO {
     public $id_image;
     public $id_sites;
     
-    public function usersDAO($info = false) {
+    public function advertisingDAO($info = false) {
         if ($info) {
             $this->init($info);
         }
