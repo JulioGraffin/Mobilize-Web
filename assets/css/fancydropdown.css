@@ -1,0 +1,158 @@
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+
+/* inline elements
+ *************************/
+
+strong {
+	font-weight: bold;
+}
+
+/* tabs
+ *************************/
+
+ul.tabs {
+	display: table;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+ul.tabs li {
+	margin-right: 20px;
+	padding: 0;
+	list-style: none;
+	display: table-cell;
+	float: left;
+	position: relative;
+}
+
+ul.tabs a {
+	position: relative;
+	display: block;
+	font-family:"Lucida Grande";
+}
+
+/* dropdowns
+ *************************/
+
+ul.dropdown {
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: absolute;
+	z-index: 999;
+	top: 80%;
+	width: 150px;
+	display: none;
+	left: 0;
+	background: #333333;
+	border-radius: 4px;
+}
+
+
+ul.dropdown ul.dropdown {
+	top: -2px;
+	left: 95%;
+}
+
+ul.dropdown li {
+	margin: 0;
+	padding: 0;
+	float: none;
+	position: relative;
+	list-style: none;
+	display: block;
+}
+
+ul.dropdown li a {
+	display: block;
+}
+
+/* nav-specifc
+ *************************/
+
+#nav {
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #000;
+}
+
+#nav ul {
+	float: left;
+	margin-top: 12px;
+}
+
+#nav ul li.hasmore {
+	background: url(images/drophighlight.png) no-repeat center 27px;
+}
+#nav ul li.hasmore a span {
+	font-family:"Lucida Grande";
+}
+#nav ul li h4 {
+	margin: 0;
+}
+
+#nav ul li h4 a {
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+#nav ul li a#btn_content,
+#nav ul li a#btn_promotions,
+#nav ul li a#btn_custom {color: #69aed9;font-size: 12px;padding-left: 10px;text-transform: uppercase;background: url("../images/btn/btn_nav.png") no-repeat scroll -3px 10px transparent;}
+#nav ul li a#btn_promotions {background-position: -2px -20px;}
+#nav ul li a#btn_custom {background-position: -2px -48px;}
+
+#nav ul li a#btn_content:hover,
+#nav ul li a#btn_promotions:hover,
+#nav ul li a#btn_custom:hover {color: #dadada;}
+
+
+
+#nav ul li a span {
+	display: block;
+	padding: 0 15px 0 11px;
+}
+
+#nav ul li a:hover span {
+	/*background: url(images/topselectionright.png) top right;*/
+}
+
+#nav ul.dropdown {
+	padding: 10px;
+	overflow: hidden;
+}
+
+#nav ul.dropdown li a {
+	overflow: hidden;
+	height: 30px;
+	color: #dadada;
+	text-transform: uppercase;
+	font-size: 11px;
+	border-top: 1px solid #434343;
+	border-bottom: 1px solid #2B2B2B;
+	color: #69AED9;
+}
+
+#nav ul.dropdown li.last a {
+	border-bottom-width: 0;
+}
+
+#nav ul.dropdown li a:hover {
+	background: #222222;
+	color: #eeeeee;
+}
+
+#nav ul li h4 a:hover {
+	background-image: none;
+}
