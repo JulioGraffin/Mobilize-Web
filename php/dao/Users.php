@@ -4,6 +4,7 @@ class usersDAO {
     
     public $id;
     public $name;
+    public $username;
     public $password;
     public $email;
     public $timestamp;

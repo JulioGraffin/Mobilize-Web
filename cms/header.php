@@ -1,5 +1,5 @@
 <?php
-
+    session_start();
 ?>
 <div>
     <ul>
@@ -16,6 +16,6 @@
 </div>
 <!-- Informações do Login -->
 <div>
-    <h3>Nome do moreno</h3>
-    <a href="#">Logout</a>
+    <h3><?php print($_SESSION['name'])?></h3>
+    <a href="../php/post.php?fun=logout">Logout</a>
 </div>

@@ -13,8 +13,8 @@
 			<h2>
 				<strong>Log In Cms Mobilize Web</strong>
 			</h2>
-			<form name="login" id="login" action="#" method="post">
-				<div id="errors_login">
+			<form name="login" id="login" action="../php/post.php?fun=login" method="post">
+				<div id="errors_login" style="display: none">
 					<span>Login ou Senha inválidos!</span>
 				</div>
 				<div class="fields">
